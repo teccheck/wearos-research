@@ -12,20 +12,25 @@ WearOS devices communicate with their host system (probably your smartphone) usi
 There seem to be two channels:
 
 ### WearableBt
-- UUID `5e8945b0952511e3a5e20800200c9a66`
+- UUID `5e8945b0-9525-11e3-a5e2-0800200c9a66`
 - Wearable is server (originating package currently unknown)
 - Seems to be the primary communication channel
 - Uses [Protobuf](https://en.wikipedia.org/wiki/Protocol_Buffers) for data serialization
 
 #### Protocol
-- Sends messages
+- Sends messages as potentially multiple pieces
 - Each message starts with a 32 bit message length
 - Followed by Protobuf data
 
 ### Flow15
-- UUID `6a1eafb161c042a08bb0a336fb1c3f00`
+- UUID `6a1eafb1-61c0-42a0-8bb0-a336fb1c3f00`
 - Phone is server
 - Not sure what it's for
+
+## Bluetooth Low Enegery
+GMS seems to use BLE as well.
+
+There's a service UUID `C9C92447-8F77-4C63-9C79-25E71B4CA9B3` and a characteristic UUID `ABDD3056-28FA-441D-A470-55A75A52553A`. Not sure what they are for atm.
 
 ## Background system packages
 This section will give an overview over the most important system packages and what their role is.
@@ -147,7 +152,14 @@ This section will give an overview over the preinstalled apps.
 System settings
 
 ### ClockworkSetupWizard
-// TODO
+| Property       | Value                                   |
+| -------------- | --------------------------------------- |
+| display name   | setup                                   |
+| package        | com.google.android.wearable.setupwizard |
+| location       | /system/priv-app/ClockworkSetupWizard/  |
+| shared user id | ---                                     |
+
+Initial setup?
 
 ### WeatherClockwork
 
