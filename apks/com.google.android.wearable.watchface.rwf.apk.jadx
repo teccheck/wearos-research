@@ -6,7 +6,12 @@
   "treeExpansionsV2": [
     "c:com.google.android.wearable.libraries.watchface.watchfaceeditor.WatchFaceEditorActivity",
     "p:com.google.android.wearable.libraries.watchface.watchfaceeditor.complicationpicker",
-    "p:com.google.android.wearable.watchface"
+    "p:com.google.android.wearable.watchface.common",
+    "p:com.google.android.wearable.watchface.pacific",
+    "p:androidx.wear.watchface",
+    "p:android.support.wearable.complications",
+    "c:fxn",
+    "t:JResources//res//xml"
   ],
   "codeData": {
     "comments": [],
@@ -23,7 +28,7 @@
           "refType": "CLASS",
           "declClass": "dap"
         },
-        "newName": "deobf.WatchFaceStyle"
+        "newName": "deobf.wff.WatchFaceStyle"
       },
       {
         "nodeRef": {
@@ -112,6 +117,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "djq"
+        },
+        "newName": "deobf.stuff.AutoTrace"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "fiq"
         },
         "newName": "deobf.DynamicDispatcher1"
@@ -121,7 +133,112 @@
           "refType": "CLASS",
           "declClass": "fts"
         },
-        "newName": "deobf.WfDslBaseService"
+        "newName": "WatchFaceDslBaseService"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "fuf"
+        },
+        "newName": "deobf.wff.WatchFaceModel"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "fug"
+        },
+        "newName": "deobf.WatchFaceDslBuilder"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "fuh"
+        },
+        "newName": "deobf.wff.AmbientTransitionTriggerDetails"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "fui"
+        },
+        "newName": "deobf.wff.Trigger"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "fxb"
+        },
+        "newName": "deobf.wff.DrawableElement"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "fxd"
+        },
+        "newName": "deobf.wff.AbstractElement"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "fxf"
+        },
+        "newName": "deobf.wff.LottieAnimationElement"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "fxh"
+        },
+        "newName": "deobf.wff.BitmapImageElement"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "fxi"
+        },
+        "newName": "deobf.wff.VectorImageElement"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "fxj"
+        },
+        "newName": "deobf.wff.CircularElement"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "fxn"
+        },
+        "newName": "TextElement"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "fyb"
+        },
+        "newName": "deobf.wff.TimeElement"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gda"
+        },
+        "newName": "ScalableMovableBounds"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gde"
+        },
+        "newName": "deobf.SomePrinter"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gdf"
+        },
+        "newName": "deobf.WFLibLogger"
       },
       {
         "nodeRef": {
@@ -182,6 +299,34 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "giw"
+        },
+        "newName": "deobf.wff.AnalogBoldTextElement"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gjs"
+        },
+        "newName": "deobf.wff.ArtistDigitalTimeElement"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gkf"
+        },
+        "newName": "deobf.wff.BoldDigitalTimeElement"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gkz"
+        },
+        "newName": "deobf.wff.StandardDateElement"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "gvp"
         },
         "newName": "Logger"
@@ -192,6 +337,20 @@
           "declClass": "hpk"
         },
         "newName": "deobf.stuff.Pair"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "hpv"
+        },
+        "newName": "kotlin.Unit"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "htc"
+        },
+        "newName": "deobf.XmlBlockSomething"
       },
       {
         "nodeRef": {
@@ -272,6 +431,14 @@
           "shortId": "d:Ldat;"
         },
         "newName": "highlightLayer"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dbb",
+          "shortId": "d:J"
+        },
+        "newName": "frameTiming"
       },
       {
         "nodeRef": {
@@ -404,10 +571,458 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "dna",
+          "shortId": "a:Ljava/lang/Object;"
+        },
+        "newName": "wfDslBaseSrv"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "fiq",
           "shortId": "c:I"
         },
         "newName": "method"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ftf",
+          "shortId": "a:Lfug;"
+        },
+        "newName": "wfBuilder"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fts",
+          "shortId": "J:I"
+        },
+        "newName": "transitionState"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fts",
+          "shortId": "ae:Lcom/google/android/clockwork/ambient/WatchFaceManager;"
+        },
+        "newName": "wfManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fts",
+          "shortId": "q:Landroid/service/wallpaper/WallpaperService$Engine;"
+        },
+        "newName": "wallpaperServiceEngine"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fuf",
+          "shortId": "D:Z"
+        },
+        "newName": "enableAmbientScaleTransitionAnimation"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fuf",
+          "shortId": "E:I"
+        },
+        "newName": "backgroundAlpha"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fuf",
+          "shortId": "b:F"
+        },
+        "newName": "updateFrequencyPerSecond"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fuf",
+          "shortId": "e:Z"
+        },
+        "newName": "enableAmbientScaleSetting"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fuf",
+          "shortId": "k:F"
+        },
+        "newName": "requestedFps"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fuf",
+          "shortId": "l:F"
+        },
+        "newName": "foregroundScale"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fuf",
+          "shortId": "m:F"
+        },
+        "newName": "backgroundScale"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fuf",
+          "shortId": "n:I"
+        },
+        "newName": "foregroundAlpha"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fuf",
+          "shortId": "q:Landroid/animation/AnimatorSet;"
+        },
+        "newName": "activeAnimatorSet"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fuf",
+          "shortId": "u:I"
+        },
+        "newName": "displayState"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fuh",
+          "shortId": "a:I"
+        },
+        "newName": "direction"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fui",
+          "shortId": "a:Lhtc;"
+        },
+        "newName": "block"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fui",
+          "shortId": "b:Lfuh;"
+        },
+        "newName": "triggerDetails"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fuq",
+          "shortId": "c:I"
+        },
+        "newName": "id"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fuq",
+          "shortId": "i:Z"
+        },
+        "newName": "enabled"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fut",
+          "shortId": "d:Lgda;"
+        },
+        "newName": "parentBounds"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fwr",
+          "shortId": "A:Ljava/util/List;"
+        },
+        "newName": "genericAmbientLiteElements"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fwr",
+          "shortId": "B:Lcom/google/android/wearable/libraries/steampack/mithril/drawable/time/TickElement;"
+        },
+        "newName": "tickElement"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fwr",
+          "shortId": "c:Lfwr;"
+        },
+        "newName": "childDial"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fwr",
+          "shortId": "w:Lgda;"
+        },
+        "newName": "bounds"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fwr",
+          "shortId": "y:Ljava/util/List;"
+        },
+        "newName": "timeElements"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fwr",
+          "shortId": "z:Ljava/util/List;"
+        },
+        "newName": "drawableElements"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fwt",
+          "shortId": "p:Lgda;"
+        },
+        "newName": "parentBounds"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fwt",
+          "shortId": "x:Lcom/google/android/wearable/libraries/steampack/mithril/drawable/time/TickElement;"
+        },
+        "newName": "tickElement"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fwv",
+          "shortId": "a:Landroid/graphics/PointF;"
+        },
+        "newName": "pointF"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fxb",
+          "shortId": "e:Z"
+        },
+        "newName": "enabled"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fxb",
+          "shortId": "i:Ljava/lang/String;"
+        },
+        "newName": "id"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fxb",
+          "shortId": "o:Lgda;"
+        },
+        "newName": "bounds"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fxd",
+          "shortId": "a:Landroid/content/Context;"
+        },
+        "newName": "context"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fxd",
+          "shortId": "c:Landroid/graphics/RectF;"
+        },
+        "newName": "rect"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fxd",
+          "shortId": "d:Landroid/graphics/Paint;"
+        },
+        "newName": "paint"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fxd",
+          "shortId": "e:Lgda;"
+        },
+        "newName": "bounds"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fxd",
+          "shortId": "i:Z"
+        },
+        "newName": "isVissible"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fxd",
+          "shortId": "j:Lgja;"
+        },
+        "newName": "somethingAmbientState"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fxd",
+          "shortId": "k:Lgja;"
+        },
+        "newName": "somethingInteractiveState"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fxd",
+          "shortId": "l:Lgja;"
+        },
+        "newName": "somethingAmbientLiteSate"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fxd",
+          "shortId": "m:Lgja;"
+        },
+        "newName": "somethingSetStyle"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fxd",
+          "shortId": "n:Lfwx;"
+        },
+        "newName": "drawingOrder"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fxd",
+          "shortId": "o:Z"
+        },
+        "newName": "isEnabled"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fxd",
+          "shortId": "p:Ljava/util/List;"
+        },
+        "newName": "triggers"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fxn",
+          "shortId": "o:Landroid/graphics/Paint$Align;"
+        },
+        "newName": "paintAlign"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fxn",
+          "shortId": "s:Landroid/graphics/Typeface;"
+        },
+        "newName": "typeface1"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fxn",
+          "shortId": "t:Landroid/graphics/Typeface;"
+        },
+        "newName": "typeface2"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fxt",
+          "shortId": "b:Lhtc;"
+        },
+        "newName": "textElementPropertyBlock"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fxt",
+          "shortId": "c:Lgda;"
+        },
+        "newName": "parentBounds"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fxt",
+          "shortId": "d:I"
+        },
+        "newName": "elementType"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fyb",
+          "shortId": "a:Lgda;"
+        },
+        "newName": "dialBounds"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fyb",
+          "shortId": "d:Ljava/lang/String;"
+        },
+        "newName": "id"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fyb",
+          "shortId": "g:I"
+        },
+        "newName": "elementType"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fyb",
+          "shortId": "h:I"
+        },
+        "newName": "elementStyle"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gda",
+          "shortId": "b:Landroid/graphics/RectF;"
+        },
+        "newName": "bounds"
       },
       {
         "nodeRef": {
@@ -579,6 +1194,30 @@
       },
       {
         "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gfp",
+          "shortId": "b:Z"
+        },
+        "newName": "useFallbackFontForDigits"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gja",
+          "shortId": "a:Ljava/lang/Object;"
+        },
+        "newName": "object"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "hpv",
+          "shortId": "a:Lhpv;"
+        },
+        "newName": "INSTANCE"
+      },
+      {
+        "nodeRef": {
           "refType": "METHOD",
           "declClass": "bzj",
           "shortId": "j(Ljava/lang/Object;)V"
@@ -604,14 +1243,6 @@
           "shortId": "a(Lj$/time/ZonedDateTime;Ldax;)Landroid/graphics/Bitmap;"
         },
         "newName": "takeScreenshot"
-      },
-      {
-        "nodeRef": {
-          "refType": "METHOD",
-          "declClass": "day",
-          "shortId": "c(Landroid/graphics/Canvas;Landroid/graphics/Rect;Lj$/time/ZonedDateTime;)V"
-        },
-        "newName": "renderLayer"
       },
       {
         "nodeRef": {
@@ -784,6 +1415,406 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "fts",
+          "shortId": "c(Landroid/graphics/Canvas;Landroid/graphics/Rect;Lj$/time/ZonedDateTime;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 2
+        },
+        "newName": "fps"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fts",
+          "shortId": "c(Landroid/graphics/Canvas;Landroid/graphics/Rect;Lj$/time/ZonedDateTime;)V"
+        },
+        "newName": "render"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ftt",
+          "shortId": "b(Lhtc;)V"
+        },
+        "newName": "colorways"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ftt",
+          "shortId": "c(Lhtc;)V"
+        },
+        "newName": "complicationSlotLayoutStyle"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ftt",
+          "shortId": "e(Lhtc;)V"
+        },
+        "newName": "handDigitVisibilityStyle"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ftt",
+          "shortId": "f(Lhtc;)V"
+        },
+        "newName": "tickStyles"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fuf",
+          "shortId": "\u003cinit\u003e(ILgda;Lfyg;Ljava/lang/Integer;Ljava/util/List;Ljava/util/List;Ljava/util/List;Lcom/google/android/wearable/libraries/steampack/mithril/drawable/time/TickElement;FLjava/util/Map;Ljava/util/List;Lhtc;Lhtc;ZZLfwr;Ldal;Lgfp;ILandroid/content/Context;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1638400
+        },
+        "newName": "updateFrequencyPerSecond"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fuf",
+          "shortId": "\u003cinit\u003e(ILgda;Lfyg;Ljava/lang/Integer;Ljava/util/List;Ljava/util/List;Ljava/util/List;Lcom/google/android/wearable/libraries/steampack/mithril/drawable/time/TickElement;FLjava/util/Map;Ljava/util/List;Lhtc;Lhtc;ZZLfwr;Ldal;Lgfp;ILandroid/content/Context;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1966080
+        },
+        "newName": "enableAmbientScaleTransitionAnimation"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fuf",
+          "shortId": "\u003cinit\u003e(ILgda;Lfyg;Ljava/lang/Integer;Ljava/util/List;Ljava/util/List;Ljava/util/List;Lcom/google/android/wearable/libraries/steampack/mithril/drawable/time/TickElement;FLjava/util/Map;Ljava/util/List;Lhtc;Lhtc;ZZLfwr;Ldal;Lgfp;ILandroid/content/Context;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 2031616
+        },
+        "newName": "enableAmbientScaleSetting"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fuf",
+          "shortId": "e(Landroid/graphics/Canvas;Landroid/graphics/RectF;Lj$/time/ZonedDateTime;Ldax;)V"
+        },
+        "newName": "onDraw"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fug",
+          "shortId": "a(Lhtc;)V"
+        },
+        "newName": "complications"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fug",
+          "shortId": "a(Lhtc;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262149
+        },
+        "newName": "parentBounds"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fug",
+          "shortId": "b(Lhtc;)V"
+        },
+        "newName": "selections"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fuq",
+          "shortId": "d()Lgda;"
+        },
+        "newName": "getBounds"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fuq",
+          "shortId": "i()Ljava/lang/String;"
+        },
+        "newName": "getId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fwr",
+          "shortId": "d(Lgde;)V"
+        },
+        "newName": "dump"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fxd",
+          "shortId": "a()Lfxb;"
+        },
+        "newName": "getDrawableElement"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fxd",
+          "shortId": "b()Lfxb;"
+        },
+        "newName": "getDrawableElementInternal"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fxd",
+          "shortId": "g(Lfwx;)V"
+        },
+        "newName": "setDrawingOrder"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fxd",
+          "shortId": "i(Lgda;)V"
+        },
+        "newName": "setBounds"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fxd",
+          "shortId": "j(Lfuh;Lhtc;)V"
+        },
+        "newName": "addAmbientTransitionTrigger"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fxd",
+          "shortId": "k()V"
+        },
+        "newName": "enable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fxt",
+          "shortId": "b()Lgda;"
+        },
+        "newName": "getParentBounds"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fxt",
+          "shortId": "g(Lgda;)V"
+        },
+        "newName": "setParentBounds"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fyb",
+          "shortId": "d()V"
+        },
+        "newName": "clearBounds"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gbb",
+          "shortId": "J(I)Ljava/lang/String;"
+        },
+        "newName": "getHandName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gbb",
+          "shortId": "ad(I)Ljava/lang/String;"
+        },
+        "newName": "getDisplayStyleName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gbb",
+          "shortId": "ae(Landroid/content/Context;IILhtc;I)Lfug;"
+        },
+        "newName": "builder"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gbb",
+          "shortId": "ae(Landroid/content/Context;IILhtc;I)Lfug;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 2
+        },
+        "newName": "dpi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gbb",
+          "shortId": "g(Landroid/graphics/Paint;)Ljava/lang/String;"
+        },
+        "newName": "paintToString"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gda",
+          "shortId": "a()F"
+        },
+        "newName": "centerX"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gda",
+          "shortId": "b()F"
+        },
+        "newName": "centerY"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gda",
+          "shortId": "c()F"
+        },
+        "newName": "bottom"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gda",
+          "shortId": "d()F"
+        },
+        "newName": "left"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gda",
+          "shortId": "e()F"
+        },
+        "newName": "right"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gda",
+          "shortId": "f()F"
+        },
+        "newName": "top"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gda",
+          "shortId": "g()F"
+        },
+        "newName": "height"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gda",
+          "shortId": "h()F"
+        },
+        "newName": "width"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gda",
+          "shortId": "i()Landroid/graphics/RectF;"
+        },
+        "newName": "toRectF"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gda",
+          "shortId": "m()V"
+        },
+        "newName": "clear"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gdf",
+          "shortId": "a(Ljava/lang/String;Lhsr;)V"
+        },
+        "newName": "dAlt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gdf",
+          "shortId": "b(Ljava/lang/String;Lhsr;)V"
+        },
+        "newName": "d"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gdf",
+          "shortId": "c(Ljava/lang/String;Lhsr;)V"
+        },
+        "newName": "e"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gdf",
+          "shortId": "d(Ljava/lang/String;Lhsr;)V"
+        },
+        "newName": "i"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gdf",
+          "shortId": "e(Ljava/lang/String;Lhsr;)V"
+        },
+        "newName": "v"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gdf",
+          "shortId": "f(Ljava/lang/String;Lhsr;)V"
+        },
+        "newName": "w"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gdf",
+          "shortId": "g(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "tag"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "gex",
           "shortId": "i(Ldax;Ljava/util/Map;)Landroid/graphics/Bitmap;"
         },
@@ -836,6 +1867,22 @@
           "shortId": "o(Ldjn;)V"
         },
         "newName": "updateScreenshot"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gja",
+          "shortId": "d()V"
+        },
+        "newName": "disposeMaybe"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gja",
+          "shortId": "g(Liay;Lhsr;)Ljava/lang/Object;"
+        },
+        "newName": "runAndWatch"
       },
       {
         "nodeRef": {
@@ -910,114 +1957,9 @@
   "openTabs": [
     {
       "type": "class",
-      "tabPath": "com.google.android.wearable.libraries.watchface.watchfaceeditor.WatchFaceEditorActivity",
-      "subPath": "0",
-      "caret": 18244,
-      "view": {
-        "x": 0,
-        "y": 6013
-      },
-      "active": false,
-      "pinned": false,
-      "bookmarked": false,
-      "hidden": false,
-      "previewTab": false
-    },
-    {
-      "type": "class",
-      "tabPath": "gfg",
-      "subPath": "0",
-      "caret": 0,
-      "view": {
-        "x": 0,
-        "y": 0
-      },
-      "active": false,
-      "pinned": false,
-      "bookmarked": false,
-      "hidden": false,
-      "previewTab": false
-    },
-    {
-      "type": "class",
-      "tabPath": "ggn",
-      "subPath": "0",
-      "caret": 1289,
-      "view": {
-        "x": 0,
-        "y": 380
-      },
-      "active": false,
-      "pinned": false,
-      "bookmarked": false,
-      "hidden": false,
-      "previewTab": false
-    },
-    {
-      "type": "class",
-      "tabPath": "gdn",
-      "subPath": "0",
-      "caret": 0,
-      "view": {
-        "x": 0,
-        "y": 0
-      },
-      "active": false,
-      "pinned": false,
-      "bookmarked": false,
-      "hidden": false,
-      "previewTab": false
-    },
-    {
-      "type": "class",
-      "tabPath": "ghi",
-      "subPath": "0",
-      "caret": 591,
-      "view": {
-        "x": 0,
-        "y": 0
-      },
-      "active": false,
-      "pinned": false,
-      "bookmarked": false,
-      "hidden": false,
-      "previewTab": false
-    },
-    {
-      "type": "class",
-      "tabPath": "gfn",
-      "subPath": "0",
-      "caret": 10424,
-      "view": {
-        "x": 0,
-        "y": 4322
-      },
-      "active": false,
-      "pinned": false,
-      "bookmarked": false,
-      "hidden": false,
-      "previewTab": false
-    },
-    {
-      "type": "class",
-      "tabPath": "gfm",
-      "subPath": "0",
-      "caret": 554,
-      "view": {
-        "x": 0,
-        "y": 0
-      },
-      "active": false,
-      "pinned": false,
-      "bookmarked": false,
-      "hidden": false,
-      "previewTab": false
-    },
-    {
-      "type": "class",
       "tabPath": "djn",
       "subPath": "0",
-      "caret": 1432,
+      "caret": 0,
       "view": {
         "x": 0,
         "y": 0
@@ -1030,24 +1972,9 @@
     },
     {
       "type": "class",
-      "tabPath": "dhe",
+      "tabPath": "fuf",
       "subPath": "0",
-      "caret": 2915,
-      "view": {
-        "x": 0,
-        "y": 1541
-      },
-      "active": false,
-      "pinned": false,
-      "bookmarked": false,
-      "hidden": false,
-      "previewTab": false
-    },
-    {
-      "type": "class",
-      "tabPath": "dgw",
-      "subPath": "0",
-      "caret": 531,
+      "caret": 0,
       "view": {
         "x": 0,
         "y": 0
@@ -1060,39 +1987,9 @@
     },
     {
       "type": "class",
-      "tabPath": "dgm",
+      "tabPath": "dna",
       "subPath": "0",
-      "caret": 1462,
-      "view": {
-        "x": 0,
-        "y": 540
-      },
-      "active": false,
-      "pinned": false,
-      "bookmarked": false,
-      "hidden": false,
-      "previewTab": false
-    },
-    {
-      "type": "class",
-      "tabPath": "dhg",
-      "subPath": "0",
-      "caret": 13657,
-      "view": {
-        "x": 0,
-        "y": 6518
-      },
-      "active": false,
-      "pinned": false,
-      "bookmarked": false,
-      "hidden": false,
-      "previewTab": false
-    },
-    {
-      "type": "class",
-      "tabPath": "dbb",
-      "subPath": "0",
-      "caret": 777,
+      "caret": 0,
       "view": {
         "x": 0,
         "y": 0
@@ -1105,12 +2002,27 @@
     },
     {
       "type": "class",
-      "tabPath": "day",
+      "tabPath": "android.support.wearable.complications.ComplicationData",
       "subPath": "0",
-      "caret": 2898,
+      "caret": 0,
       "view": {
-        "x": 6,
-        "y": 1299
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "fhm",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
       },
       "active": false,
       "pinned": false,
@@ -1122,10 +2034,550 @@
       "type": "class",
       "tabPath": "fts",
       "subPath": "0",
-      "caret": 16665,
+      "caret": 0,
       "view": {
-        "x": 6,
-        "y": 7857
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "fug",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "htc",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "hua",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "ftt",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "cuq",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "gov",
+      "subPath": "0",
+      "caret": 20,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "djq",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "ftg",
+      "subPath": "0",
+      "caret": 21,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "gbb",
+      "subPath": "0",
+      "caret": 16728,
+      "view": {
+        "x": 0,
+        "y": 8949
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "fxt",
+      "subPath": "0",
+      "caret": 2370,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "fyg",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "fxd",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "gja",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "buq",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "fxc",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "a",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "hpv",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "fuj",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "fui",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "fuh",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "fxn",
+      "subPath": "0",
+      "caret": 378,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "fxf",
+      "subPath": "0",
+      "caret": 580,
+      "view": {
+        "x": 0,
+        "y": 13
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "fxh",
+      "subPath": "0",
+      "caret": 425,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "fxi",
+      "subPath": "0",
+      "caret": 497,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "fxj",
+      "subPath": "0",
+      "caret": 340,
+      "view": {
+        "x": 0,
+        "y": 31
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "fxw",
+      "subPath": "0",
+      "caret": 286,
+      "view": {
+        "x": 0,
+        "y": 193
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "giw",
+      "subPath": "0",
+      "caret": 391,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "gjs",
+      "subPath": "0",
+      "caret": 1381,
+      "view": {
+        "x": 0,
+        "y": 185
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.google.android.wearable.watchface.artist.ArtistDigitalTimeElement",
+      "subPath": "0",
+      "caret": 1039,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "gkf",
+      "subPath": "0",
+      "caret": 426,
+      "view": {
+        "x": 0,
+        "y": 49
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "gkz",
+      "subPath": "0",
+      "caret": 1344,
+      "view": {
+        "x": 0,
+        "y": 203
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.google.android.wearable.watchface.common.StandardDateElement",
+      "subPath": "0",
+      "caret": 1281,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.google.android.wearable.watchface.pacific.PacificWatchFaceService",
+      "subPath": "0",
+      "caret": 334,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "gmb",
+      "subPath": "0",
+      "caret": 692,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "resource",
+      "tabPath": "res/xml/watch_face_pacific.xml",
+      "subPath": "",
+      "caret": 844,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "gkt",
+      "subPath": "0",
+      "caret": 506,
+      "view": {
+        "x": 0,
+        "y": 0
       },
       "active": true,
       "pinned": false,
@@ -1134,9 +2586,11 @@
       "previewTab": false
     }
   ],
-  "cacheDir": "/home/christoph/.cache/jadx/projects/com.google.android.wearable.watchface.rwf-b505c71820609ff474bb99fb59532f1d",
+  "cacheDir": "/home/christoph/.cache/jadx/projects/com.google.android.wearable.watchface.rwf.apk-",
   "enableLiveReload": false,
   "searchHistory": [
+    "extends AbstractElement",
+    "WatchFaceDslBuilder#",
     "extends CanvasRenderer",
     "extends day",
     "extends dbb",

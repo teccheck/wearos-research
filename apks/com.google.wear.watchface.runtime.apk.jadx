@@ -1,0 +1,578 @@
+{
+  "projectVersion": 2,
+  "files": [
+    "com.google.wear.watchface.runtime.apk"
+  ],
+  "treeExpansionsV2": [
+    "p:deobf"
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": [
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "V.X"
+        },
+        "newName": "deobf.WatchFaceImpl"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "W0.e"
+        },
+        "newName": "deobf.DeclarativeWatchFaceRuntime"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "W0.y"
+        },
+        "newName": "deobf.WatchFaceRenderer"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "Y.a"
+        },
+        "newName": "WatchFaceRenderRunnable"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "e1.h"
+        },
+        "newName": "deobf.WatchFaceViewer"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "k1.c"
+        },
+        "newName": "Complication"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "V.D",
+          "shortId": "g:I"
+        },
+        "newName": "complicationId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "V.X",
+          "shortId": "i:LW0/y;"
+        },
+        "newName": "renderer"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "androidx.wear.watchface.control.data.WatchFaceRenderParams",
+          "shortId": "c:Landroidx/wear/watchface/data/RenderParametersWireFormat;"
+        },
+        "newName": "renderParams"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "androidx.wear.watchface.control.data.WatchFaceRenderParams",
+          "shortId": "d:J"
+        },
+        "newName": "instant"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "androidx.wear.watchface.control.data.WatchFaceRenderParams",
+          "shortId": "e:Landroidx/wear/watchface/style/data/UserStyleWireFormat;"
+        },
+        "newName": "userStyle"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "androidx.wear.watchface.control.data.WatchFaceRenderParams",
+          "shortId": "f:Ljava/util/List;"
+        },
+        "newName": "complications"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "k1.c",
+          "shortId": "a:I"
+        },
+        "newName": "idInt"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "k1.c",
+          "shortId": "b:Ljava/lang/String;"
+        },
+        "newName": "idString"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "k1.c",
+          "shortId": "c:Ljava/util/ArrayList;"
+        },
+        "newName": "supportedTypes"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "k1.c",
+          "shortId": "g:Z"
+        },
+        "newName": "customizable"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "k1.c",
+          "shortId": "l:Ll1/d;"
+        },
+        "newName": "bounds"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "K0.a",
+          "shortId": "onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65538
+        },
+        "newName": "paramsParcel"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "K0.a",
+          "shortId": "onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655407
+        },
+        "newName": "resultBundle"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "V.X",
+          "shortId": "e(Landroidx/wear/watchface/control/data/WatchFaceRenderParams;)Landroid/os/Bundle;"
+        },
+        "newName": "renderWatchFaceToBitmap"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "W0.e",
+          "shortId": "a(Ld0/b;Ljava/lang/String;LW0/c;)LV/s;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 786434
+        },
+        "newName": "supportedTypes"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "W0.e",
+          "shortId": "h(LW0/e;Ljava/lang/String;)Ljava/util/ArrayList;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "context"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "W0.e",
+          "shortId": "h(LW0/e;Ljava/lang/String;)Ljava/util/ArrayList;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "fileName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "W0.y",
+          "shortId": "\u003cinit\u003e(LW0/e;Landroid/view/SurfaceHolder;LV/s;Ld0/b;LV/U0;Le1/f;LV1/b;LA0/b;ILA0/b;LW0/n;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196631
+        },
+        "newName": "wffVersion"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "W0.y",
+          "shortId": "f()V"
+        },
+        "newName": "onDestroy"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "W0.y",
+          "shortId": "h()V"
+        },
+        "newName": "renderBlackFrame"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "W0.y",
+          "shortId": "i(Landroid/graphics/Canvas;Landroid/graphics/Rect;)V"
+        },
+        "newName": "renderHighlightLayer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "W0.y",
+          "shortId": "k(Ljava/time/ZonedDateTime;LV/F;Landroid/view/SurfaceHolder;)V"
+        },
+        "newName": "renderScreenshotToSurface"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "W0.y",
+          "shortId": "l(Ljava/time/ZonedDateTime;LV/F;)Landroid/graphics/Bitmap;"
+        },
+        "newName": "takeScreenshot"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "W1.a",
+          "shortId": "S(Landroid/os/Parcel;Landroid/os/Parcelable;)V"
+        },
+        "newName": "writeResult"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "e1.h",
+          "shortId": "b()V"
+        },
+        "newName": "pause"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "e1.h",
+          "shortId": "c()V"
+        },
+        "newName": "resume"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "e1.h",
+          "shortId": "d(Ljava/time/ZonedDateTime;)V"
+        },
+        "newName": "updateTime"
+      }
+    ]
+  },
+  "openTabs": [
+    {
+      "type": "resource",
+      "tabPath": "AndroidManifest.xml",
+      "subPath": "",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.google.wear.watchface.runtime.licenses.WearLicenseDisplayActivity",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.google.wear.watchface.runtime.PermissionActivity",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.google.wear.watchface.runtime.RuntimeControlService",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.samsung.watchface.debug.DebugBroadcastReceiver",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.google.wear.watchface.runtime.DeclarativeWatchFaceRuntime0",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "W0.e",
+      "subPath": "0",
+      "caret": 11186,
+      "view": {
+        "x": 0,
+        "y": 4612
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "W0.y",
+      "subPath": "0",
+      "caret": 2364,
+      "view": {
+        "x": 0,
+        "y": 1277
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "e1.h",
+      "subPath": "0",
+      "caret": 969,
+      "view": {
+        "x": 0,
+        "y": 4333
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "k1.c",
+      "subPath": "0",
+      "caret": 303,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "l1.d",
+      "subPath": "0",
+      "caret": 171,
+      "view": {
+        "x": 0,
+        "y": 157
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "e1.c",
+      "subPath": "0",
+      "caret": 2152,
+      "view": {
+        "x": 0,
+        "y": 1147
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "Y.E",
+      "subPath": "0",
+      "caret": 10883,
+      "view": {
+        "x": 0,
+        "y": 4035
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "Y.a",
+      "subPath": "0",
+      "caret": 220,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "V.X",
+      "subPath": "0",
+      "caret": 10780,
+      "view": {
+        "x": 0,
+        "y": 5560
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "K0.a",
+      "subPath": "0",
+      "caret": 6302,
+      "view": {
+        "x": 133,
+        "y": 2469
+      },
+      "active": true,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "androidx.wear.watchface.control.data.WatchFaceRenderParams",
+      "subPath": "0",
+      "caret": 741,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "W1.a",
+      "subPath": "0",
+      "caret": 1987,
+      "view": {
+        "x": 0,
+        "y": 15755
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    }
+  ],
+  "cacheDir": "/home/christoph/.cache/jadx/projects/com.google.wear.watchface.runtime-b205efcb8b6e72d4f6a9324928e8f615",
+  "enableLiveReload": false,
+  "searchHistory": [
+    "HeadlessWatchFaceImpl",
+    "renderWatchFaceToBitmap",
+    "render watch face"
+  ],
+  "searchResourcesFilter": "$TEXT",
+  "searchResourcesSizeLimit": 0,
+  "pluginOptions": {}
+}

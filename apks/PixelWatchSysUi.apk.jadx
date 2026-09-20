@@ -3,28 +3,353 @@
   "files": [
     "PixelWatchSysUi.apk"
   ],
-  "treeExpansionsV2": [],
+  "treeExpansionsV2": [
+    "c:com.google.android.clockwork.sysui.experiences.defaultwatchface.DefaultWatchFace",
+    "p:com.google.android.clockwork.sysui.experiences.watchfaceeditor",
+    "t:JResources//res//layout"
+  ],
   "codeData": {
     "comments": [],
     "renames": [
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "foq"
+        },
+        "newName": "deobf.wff.InteractiveWatchFaceClientImpl"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "hfa"
+        },
+        "newName": "deobf.wff.SysUiWatchFaceId"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "iba"
+        },
+        "newName": "deobf.wff.editor.WFEditingManagerImpl"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "ihu"
+        },
+        "newName": "com.google.android.clockwork.sysui.experiences.defaultwatchface.DefaultWatchFaceBridge"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "iuh"
+        },
+        "newName": "deobf.wff.editor.WFEditorManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "ivb"
         },
         "newName": "deobf.SysUiBaseActivity"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "on"
+        },
+        "newName": "com.google.android.clockwork.sysui.experiences.defaultwatchface.CanvasWatchFaceService"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "ou"
+        },
+        "newName": "com.google.android.clockwork.sysui.experiences.defaultwatchface.WatchFaceService"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "foq",
+          "shortId": "h:Lfrh;"
+        },
+        "newName": "remoteInterface"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "foq",
+          "shortId": "i:Ljava/util/HashMap;"
+        },
+        "newName": "clientDisconnectListeners"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ihu",
+          "shortId": "e:Lcom/google/android/clockwork/sysui/experiences/defaultwatchface/DefaultWatchFace;"
+        },
+        "newName": "INSTANCE"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "iui",
+          "shortId": "a:Liui;"
+        },
+        "newName": "INIT"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "iui",
+          "shortId": "b:Liui;"
+        },
+        "newName": "ESTABLISH_SESSION"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "iui",
+          "shortId": "c:Liui;"
+        },
+        "newName": "SESSION_READY"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "iui",
+          "shortId": "d:Liui;"
+        },
+        "newName": "FETCH_DATA"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "iui",
+          "shortId": "e:Liui;"
+        },
+        "newName": "START_UI"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "iui",
+          "shortId": "f:Liui;"
+        },
+        "newName": "REINDEX_PAGES"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "iui",
+          "shortId": "g:Liui;"
+        },
+        "newName": "FINISH"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "iui",
+          "shortId": "h:[Liui;"
+        },
+        "newName": "values"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "iuq",
+          "shortId": "a:Lcom/google/android/clockwork/sysui/experiences/watchfaceeditor/WatchFaceEditorView;"
+        },
+        "newName": "editorView"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "iuq",
+          "shortId": "d:Landroidx/viewpager2/widget/ViewPager2;"
+        },
+        "newName": "pager"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "iuq",
+          "shortId": "f:Lcom/google/android/clockwork/common/wearable/wearmaterial/pageindicator/WearPageIndicatorDrawable;"
+        },
+        "newName": "indicatorDrawable"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "iuq",
+          "shortId": "m:Lcom/google/android/clockwork/sysui/experiences/watchfaceeditor/PreviewSurfaceView;"
+        },
+        "newName": "previewSurfaceView"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dax",
+          "shortId": "h(Landroid/os/Bundle;)Landroid/graphics/Bitmap;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655363
+        },
+        "newName": "config_ordinal"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dax",
+          "shortId": "h(Landroid/os/Bundle;)Landroid/graphics/Bitmap;"
+        },
+        "newName": "getBitmapFromResult"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dax",
+          "shortId": "h(Landroid/os/Bundle;)Landroid/graphics/Bitmap;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131073
+        },
+        "newName": "width"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dax",
+          "shortId": "h(Landroid/os/Bundle;)Landroid/graphics/Bitmap;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196609
+        },
+        "newName": "height"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "foq",
+          "shortId": "b(Lfog;Lj$/time/Instant;Lfrs;Ljava/util/Map;)Landroid/graphics/Bitmap;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524290
+        },
+        "newName": "configParcel"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "foq",
+          "shortId": "b(Lfog;Lj$/time/Instant;Lfrs;Ljava/util/Map;)Landroid/graphics/Bitmap;"
+        },
+        "newName": "renderWatchFaceToBitmap"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "foq",
+          "shortId": "b(Lfog;Lj$/time/Instant;Lfrs;Ljava/util/Map;)Landroid/graphics/Bitmap;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524291
+        },
+        "newName": "responseParcel"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "foq",
+          "shortId": "b(Lfog;Lj$/time/Instant;Lfrs;Ljava/util/Map;)Landroid/graphics/Bitmap;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655365
+        },
+        "newName": "responseBundle"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "foq",
+          "shortId": "f(Lfop;Ljava/util/concurrent/Executor;)V"
+        },
+        "newName": "addClientDisconnectListener"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "foq",
+          "shortId": "g()V"
+        },
+        "newName": "addWatchFaceReadyListener"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "foq",
+          "shortId": "k(Ljava/lang/String;Lfrs;)V"
+        },
+        "newName": "updateInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ghw",
+          "shortId": "j()Landroid/os/Parcel;"
+        },
+        "newName": "obtainParcel"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ghw",
+          "shortId": "k(ILandroid/os/Parcel;)Landroid/os/Parcel;"
+        },
+        "newName": "transact"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ghy",
+          "shortId": "a(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;"
+        },
+        "newName": "bundleFromParcel"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ghy",
+          "shortId": "c(Landroid/os/Parcel;Landroid/os/Parcelable;)V"
+        },
+        "newName": "writeOneAndDataToParcel"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hfa",
+          "shortId": "d()Ljava/lang/String;"
+        },
+        "newName": "getName"
       }
     ]
   },
   "openTabs": [
     {
       "type": "class",
-      "tabPath": "com.google.android.wearable.sysui.application.SysUiApplication",
+      "tabPath": "com.google.android.clockwork.sysui.experiences.watchfaceeditor.WatchFaceEditorActivity",
       "subPath": "0",
-      "caret": 1021,
+      "caret": 7854,
       "view": {
         "x": 0,
-        "y": 1415
+        "y": 2554
       },
       "active": false,
       "pinned": false,
@@ -34,24 +359,9 @@
     },
     {
       "type": "resource",
-      "tabPath": "AndroidManifest.xml",
+      "tabPath": "res/layout/activity_editor.xml",
       "subPath": "",
-      "caret": 53186,
-      "view": {
-        "x": 6,
-        "y": 16409
-      },
-      "active": false,
-      "pinned": false,
-      "bookmarked": false,
-      "hidden": false,
-      "previewTab": false
-    },
-    {
-      "type": "class",
-      "tabPath": "com.google.android.clockwork.sysui.experiences.charging.ui.composable.ChargingComposeActivity",
-      "subPath": "0",
-      "caret": 1111,
+      "caret": 0,
       "view": {
         "x": 0,
         "y": 0
@@ -64,9 +374,9 @@
     },
     {
       "type": "class",
-      "tabPath": "com.google.android.wearable.sysui.mainui.activity.SysUiActivity",
+      "tabPath": "hfa",
       "subPath": "0",
-      "caret": 504,
+      "caret": 2168,
       "view": {
         "x": 0,
         "y": 0
@@ -79,12 +389,12 @@
     },
     {
       "type": "class",
-      "tabPath": "mfj",
+      "tabPath": "iuh",
       "subPath": "0",
-      "caret": 185,
+      "caret": 11395,
       "view": {
         "x": 0,
-        "y": 29
+        "y": 5567
       },
       "active": false,
       "pinned": false,
@@ -94,23 +404,101 @@
     },
     {
       "type": "class",
-      "tabPath": "ivb",
+      "tabPath": "foq",
       "subPath": "0",
-      "caret": 2285,
+      "caret": 2185,
       "view": {
         "x": 0,
-        "y": 1207
+        "y": 831
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "dax",
+      "subPath": "0",
+      "caret": 4479,
+      "view": {
+        "x": 0,
+        "y": 2233
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "ghy",
+      "subPath": "0",
+      "caret": 963,
+      "view": {
+        "x": 0,
+        "y": 67
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "ghw",
+      "subPath": "0",
+      "caret": 763,
+      "view": {
+        "x": 0,
+        "y": 106
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "foz",
+      "subPath": "0",
+      "caret": 3528,
+      "view": {
+        "x": 0,
+        "y": 1553
       },
       "active": true,
       "pinned": false,
       "bookmarked": false,
       "hidden": false,
       "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "frh",
+      "subPath": "0",
+      "caret": 344,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
     }
   ],
-  "cacheDir": "/home/christoph/.cache/jadx/projects/PixelWatchSysUi-f8ef02f3a730063f0a11e7ee720d88d6",
+  "cacheDir": "/home/christoph/.cache/jadx/projects/PixelWatchSysUi.apk-",
   "enableLiveReload": false,
-  "searchHistory": [],
+  "searchHistory": [
+    "androidx.wear.watchface.control.IInteractiveWatchFace",
+    "WatchFaceEditorView"
+  ],
   "searchResourcesFilter": "$TEXT",
   "searchResourcesSizeLimit": 0,
   "pluginOptions": {}
