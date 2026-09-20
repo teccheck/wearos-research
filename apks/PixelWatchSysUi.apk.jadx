@@ -1,0 +1,117 @@
+{
+  "projectVersion": 2,
+  "files": [
+    "PixelWatchSysUi.apk"
+  ],
+  "treeExpansionsV2": [],
+  "codeData": {
+    "comments": [],
+    "renames": [
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "ivb"
+        },
+        "newName": "deobf.SysUiBaseActivity"
+      }
+    ]
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "com.google.android.wearable.sysui.application.SysUiApplication",
+      "subPath": "0",
+      "caret": 1021,
+      "view": {
+        "x": 0,
+        "y": 1415
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "resource",
+      "tabPath": "AndroidManifest.xml",
+      "subPath": "",
+      "caret": 53186,
+      "view": {
+        "x": 6,
+        "y": 16409
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.google.android.clockwork.sysui.experiences.charging.ui.composable.ChargingComposeActivity",
+      "subPath": "0",
+      "caret": 1111,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.google.android.wearable.sysui.mainui.activity.SysUiActivity",
+      "subPath": "0",
+      "caret": 504,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "mfj",
+      "subPath": "0",
+      "caret": 185,
+      "view": {
+        "x": 0,
+        "y": 29
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "ivb",
+      "subPath": "0",
+      "caret": 2285,
+      "view": {
+        "x": 0,
+        "y": 1207
+      },
+      "active": true,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    }
+  ],
+  "cacheDir": "/home/christoph/.cache/jadx/projects/PixelWatchSysUi-f8ef02f3a730063f0a11e7ee720d88d6",
+  "enableLiveReload": false,
+  "searchHistory": [],
+  "searchResourcesFilter": "$TEXT",
+  "searchResourcesSizeLimit": 0,
+  "pluginOptions": {}
+}

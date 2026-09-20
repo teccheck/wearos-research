@@ -1,0 +1,1152 @@
+{
+  "projectVersion": 2,
+  "files": [
+    "com.google.android.wearable.watchface.rwf.apk"
+  ],
+  "treeExpansionsV2": [
+    "c:com.google.android.wearable.libraries.watchface.watchfaceeditor.WatchFaceEditorActivity",
+    "p:com.google.android.wearable.libraries.watchface.watchfaceeditor.complicationpicker",
+    "p:com.google.android.wearable.watchface"
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": [
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "ag"
+        },
+        "newName": "deobf.FragmentActivity"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "dap"
+        },
+        "newName": "deobf.WatchFaceStyle"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "dax"
+        },
+        "newName": "deobf.RenderParameters"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "day"
+        },
+        "newName": "deobf.CanvasRenderer"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "dbb"
+        },
+        "newName": "deobf.ICanvasRenderer"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "dcr"
+        },
+        "newName": "deobf.WatchFaceId"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "del"
+        },
+        "newName": "deobf.SmallImageComplicationDataProvider"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "dem"
+        },
+        "newName": "deobf.SmallImageComplicationData"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "dgm"
+        },
+        "newName": "deobf.EditorSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "dgw"
+        },
+        "newName": "IWfScreenshotRenderer"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "dhe"
+        },
+        "newName": "WfScreenshotRendererWrapper"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "dhg"
+        },
+        "newName": "WFEditorDelegate"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "dix"
+        },
+        "newName": "deobf.UserStyleSetting"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "djn"
+        },
+        "newName": "deobf.WatchFaceScreenshotLayer"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "fiq"
+        },
+        "newName": "deobf.DynamicDispatcher1"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "fts"
+        },
+        "newName": "deobf.WfDslBaseService"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gdn"
+        },
+        "newName": "com.google.android.wearable.libraries.watchface.watchfaceeditor.CompSelectOverlayUi"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gex"
+        },
+        "newName": "com.google.android.wearable.libraries.watchface.watchfaceeditor.WatchFaceEditorManagerLocalImpl"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gfg"
+        },
+        "newName": "com.google.android.wearable.libraries.watchface.watchfaceeditor.WatchFaceEditorUiController"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gfm"
+        },
+        "newName": "deobf.SomethingWatchFaceScreenshot"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gfn"
+        },
+        "newName": "com.google.android.wearable.libraries.watchface.watchfaceeditor.WatchFaceEditorViewModel"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gfp"
+        },
+        "newName": "deobf.TypefaceProvider"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "ggn"
+        },
+        "newName": "com.google.android.wearable.libraries.watchface.watchfaceeditor.complicationpicker.loader.ComplicationProvidersLoader"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "ghi"
+        },
+        "newName": "com.google.android.wearable.libraries.watchface.watchfaceeditor.complicationpicker.util.ProviderChooserOperator"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gvp"
+        },
+        "newName": "Logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "hpk"
+        },
+        "newName": "deobf.stuff.Pair"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.google.android.wearable.libraries.watchface.watchfaceeditor.WatchFaceEditorActivity",
+          "shortId": "r:Lgfg;"
+        },
+        "newName": "controller"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.google.android.wearable.libraries.watchface.watchfaceeditor.WatchFaceEditorActivity",
+          "shortId": "t:Lgfn;"
+        },
+        "newName": "viewModel"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dap",
+          "shortId": "a:Ldap;"
+        },
+        "newName": "INTERACTIVE"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dap",
+          "shortId": "b:Ldap;"
+        },
+        "newName": "LOW_BATTERY_INTERACTIVE"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dap",
+          "shortId": "c:Ldap;"
+        },
+        "newName": "MUTE"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dap",
+          "shortId": "d:Ldap;"
+        },
+        "newName": "AMBIENT"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dap",
+          "shortId": "e:[Ldap;"
+        },
+        "newName": "VALUES"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dax",
+          "shortId": "b:Ldap;"
+        },
+        "newName": "style"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dax",
+          "shortId": "c:Ljava/util/Set;"
+        },
+        "newName": "watchFaceWatchFaceLayers"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dax",
+          "shortId": "d:Ldat;"
+        },
+        "newName": "highlightLayer"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dbb",
+          "shortId": "l:Ldax;"
+        },
+        "newName": "renderParameters"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dcr",
+          "shortId": "a:Ljava/lang/String;"
+        },
+        "newName": "id"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dem",
+          "shortId": "k:Ldek;"
+        },
+        "newName": "smallImage"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dgw",
+          "shortId": "q:Lj$/time/Instant;"
+        },
+        "newName": "instant"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dgw",
+          "shortId": "r:Lj$/time/Duration;"
+        },
+        "newName": "duration"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dhe",
+          "shortId": "a:Ldgw;"
+        },
+        "newName": "renderer"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dhe",
+          "shortId": "b:Landroid/content/ComponentName;"
+        },
+        "newName": "componentName"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dhe",
+          "shortId": "c:Ldcr;"
+        },
+        "newName": "wfId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dhe",
+          "shortId": "d:Lj$/time/Instant;"
+        },
+        "newName": "instant"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dhg",
+          "shortId": "A:Ldcr;"
+        },
+        "newName": "wfId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dhg",
+          "shortId": "s:Landroid/content/ComponentName;"
+        },
+        "newName": "componentName"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dix",
+          "shortId": "a:Ljava/lang/String;"
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "djn",
+          "shortId": "b:Ldjn;"
+        },
+        "newName": "BASE"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "djn",
+          "shortId": "c:Ldjn;"
+        },
+        "newName": "COMPLICATIONS"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "djn",
+          "shortId": "d:Ldjn;"
+        },
+        "newName": "COMPLICATIONS_OVERLAY"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "djn",
+          "shortId": "e:[Ldjn;"
+        },
+        "newName": "VALUES"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "fiq",
+          "shortId": "c:I"
+        },
+        "newName": "method"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gdn",
+          "shortId": "c:Landroid/content/Context;"
+        },
+        "newName": "context"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gdn",
+          "shortId": "d:Lgfn;"
+        },
+        "newName": "viewModel"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gex",
+          "shortId": "b:Ldhe;"
+        },
+        "newName": "rendererMaybe"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gfg",
+          "shortId": "b:Lcom/google/android/wearable/libraries/watchface/watchfaceeditor/WatchFaceEditorView;"
+        },
+        "newName": "editorView"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gfg",
+          "shortId": "d:Lgfn;"
+        },
+        "newName": "editorViewModel"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gfg",
+          "shortId": "e:Landroidx/viewpager2/widget/ViewPager2;"
+        },
+        "newName": "viewPager"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gfg",
+          "shortId": "g:Lcom/google/android/clockwork/common/wearable/wearmaterial/pageindicator/WearPageIndicatorDrawable;"
+        },
+        "newName": "pageIndicatorDrawable"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gfg",
+          "shortId": "h:Lag;"
+        },
+        "newName": "activity"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gfm",
+          "shortId": "c:Ljava/util/List;"
+        },
+        "newName": "layers1"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gfm",
+          "shortId": "d:Ljava/util/List;"
+        },
+        "newName": "layers2"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gfm",
+          "shortId": "i:Ljava/lang/Integer;"
+        },
+        "newName": "someVersion"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gfm",
+          "shortId": "j:Ljava/util/List;"
+        },
+        "newName": "layerVersionMaybe"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gfm",
+          "shortId": "m:Landroid/graphics/Rect;"
+        },
+        "newName": "rect"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gfn",
+          "shortId": "a:Lgvp;"
+        },
+        "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gfn",
+          "shortId": "e:Lgfm;"
+        },
+        "newName": "watchFaceScreenshot"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gfn",
+          "shortId": "f:Landroid/os/Handler;"
+        },
+        "newName": "handler"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gfn",
+          "shortId": "j:Landroid/content/ComponentName;"
+        },
+        "newName": "componentName"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gfn",
+          "shortId": "p:Lggn;"
+        },
+        "newName": "complicationsProvidersLoader"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gfn",
+          "shortId": "r:Lgex;"
+        },
+        "newName": "watchFaceEditorManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gfn",
+          "shortId": "s:Landroid/graphics/drawable/Icon;"
+        },
+        "newName": "icon"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gfn",
+          "shortId": "t:Ldel;"
+        },
+        "newName": "compDataProvider"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bzj",
+          "shortId": "j(Ljava/lang/Object;)V"
+        },
+        "newName": "setValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dax",
+          "shortId": "\u003cinit\u003e(Ldap;Ljava/util/Set;Ldat;Ljava/util/Map;Ljava/lang/Integer;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "layers"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "day",
+          "shortId": "a(Lj$/time/ZonedDateTime;Ldax;)Landroid/graphics/Bitmap;"
+        },
+        "newName": "takeScreenshot"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "day",
+          "shortId": "c(Landroid/graphics/Canvas;Landroid/graphics/Rect;Lj$/time/ZonedDateTime;)V"
+        },
+        "newName": "renderLayer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "day",
+          "shortId": "d(Landroid/graphics/Canvas;Lj$/time/ZonedDateTime;)V"
+        },
+        "newName": "drawScreenshotToCanvas"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "day",
+          "shortId": "e()V"
+        },
+        "newName": "renderBlackFrame"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "day",
+          "shortId": "g(Landroid/graphics/Canvas;Landroid/graphics/Rect;)V"
+        },
+        "newName": "renderHighlighLayer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "del",
+          "shortId": "a()Ldem;"
+        },
+        "newName": "getCompData"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dgw",
+          "shortId": "a()Ldcr;"
+        },
+        "newName": "getWfId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dgw",
+          "shortId": "v()Landroid/content/ComponentName;"
+        },
+        "newName": "getComponentName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dgw",
+          "shortId": "z()Lj$/time/Instant;"
+        },
+        "newName": "getInstant"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dhe",
+          "shortId": "w(Ldax;ILandroid/support/wearable/complications/ComplicationData;)Landroid/graphics/Bitmap;"
+        },
+        "newName": "renderComplications"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dhe",
+          "shortId": "x(Ldax;Lj$/time/Instant;Ljava/util/Map;)Landroid/graphics/Bitmap;"
+        },
+        "newName": "render"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djn",
+          "shortId": "\u003cclinit\u003e()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "BASE"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djn",
+          "shortId": "\u003cclinit\u003e()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1
+        },
+        "newName": "VALUES"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djn",
+          "shortId": "\u003cclinit\u003e()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65537
+        },
+        "newName": "COMPLICATIONS"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "djn",
+          "shortId": "\u003cclinit\u003e()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131074
+        },
+        "newName": "COMPLICATIONS_OVERLAY"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fiq",
+          "shortId": "\u003cinit\u003e(Ljava/lang/Object;Ljava/lang/Object;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "method"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fiq",
+          "shortId": "run()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 77
+        },
+        "newName": "viewModel"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fiq",
+          "shortId": "run()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262165
+        },
+        "newName": "layer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "fiq",
+          "shortId": "run()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720969
+        },
+        "newName": "layerOrdinal"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gex",
+          "shortId": "i(Ldax;Ljava/util/Map;)Landroid/graphics/Bitmap;"
+        },
+        "newName": "renderScreenshot"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gfg",
+          "shortId": "c(Ldjn;F)V"
+        },
+        "newName": "setImageAlpha"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gfg",
+          "shortId": "d(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "count"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gfg",
+          "shortId": "d(I)V"
+        },
+        "newName": "setPageCount"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gfn",
+          "shortId": "o(Ldjn;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "layer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gfn",
+          "shortId": "o(Ldjn;)V"
+        },
+        "newName": "updateScreenshot"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gvh",
+          "shortId": "b()Lgwd;"
+        },
+        "newName": "fine"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gvh",
+          "shortId": "c()Lgwd;"
+        },
+        "newName": "finest"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gvh",
+          "shortId": "d()Lgwd;"
+        },
+        "newName": "info"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gvh",
+          "shortId": "e()Lgwd;"
+        },
+        "newName": "severe"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gvh",
+          "shortId": "f()Lgwd;"
+        },
+        "newName": "warn"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gvp",
+          "shortId": "j(Ljava/lang/String;)Lgvp;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gwd",
+          "shortId": "g(Lgwg;Ljava/lang/Object;)Lgwd;"
+        },
+        "newName": "log"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gwg",
+          "shortId": "\u003cinit\u003e(Ljava/lang/String;Ljava/lang/Class;ZZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "indentifier"
+      }
+    ]
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "com.google.android.wearable.libraries.watchface.watchfaceeditor.WatchFaceEditorActivity",
+      "subPath": "0",
+      "caret": 18244,
+      "view": {
+        "x": 0,
+        "y": 6013
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "gfg",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "ggn",
+      "subPath": "0",
+      "caret": 1289,
+      "view": {
+        "x": 0,
+        "y": 380
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "gdn",
+      "subPath": "0",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "ghi",
+      "subPath": "0",
+      "caret": 591,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "gfn",
+      "subPath": "0",
+      "caret": 10424,
+      "view": {
+        "x": 0,
+        "y": 4322
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "gfm",
+      "subPath": "0",
+      "caret": 554,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "djn",
+      "subPath": "0",
+      "caret": 1432,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "dhe",
+      "subPath": "0",
+      "caret": 2915,
+      "view": {
+        "x": 0,
+        "y": 1541
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "dgw",
+      "subPath": "0",
+      "caret": 531,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "dgm",
+      "subPath": "0",
+      "caret": 1462,
+      "view": {
+        "x": 0,
+        "y": 540
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "dhg",
+      "subPath": "0",
+      "caret": 13657,
+      "view": {
+        "x": 0,
+        "y": 6518
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "dbb",
+      "subPath": "0",
+      "caret": 777,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "day",
+      "subPath": "0",
+      "caret": 2898,
+      "view": {
+        "x": 6,
+        "y": 1299
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    },
+    {
+      "type": "class",
+      "tabPath": "fts",
+      "subPath": "0",
+      "caret": 16665,
+      "view": {
+        "x": 6,
+        "y": 7857
+      },
+      "active": true,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false,
+      "previewTab": false
+    }
+  ],
+  "cacheDir": "/home/christoph/.cache/jadx/projects/com.google.android.wearable.watchface.rwf-b505c71820609ff474bb99fb59532f1d",
+  "enableLiveReload": false,
+  "searchHistory": [
+    "extends CanvasRenderer",
+    "extends day",
+    "extends dbb",
+    "extends EditorSession",
+    "com/google/android/wearable/libraries/watchface/",
+    "ComplicationProvidersLoader",
+    "gvp.j(\"com/google/android/wearable/libraries/watchface/",
+    "WatchFaceEditorManagerLocalImpl"
+  ],
+  "searchResourcesFilter": "$TEXT",
+  "searchResourcesSizeLimit": 0,
+  "pluginOptions": {}
+}
